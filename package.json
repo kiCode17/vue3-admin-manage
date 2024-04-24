@@ -1,0 +1,35 @@
+{
+  "name": "vue3_back_manage",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start:development": "vite --mode development",
+    "start:production": "vite --mode production",
+    "build": "vite build",
+    "build:dev": "vite build --mode development",
+    "build:pro": "vite build --mode production",
+    "preview": "vite preview",
+    "lint": "eslint src --fix --ext .vue,.js,.jsx",
+    "prettier": "prettier --write ."
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dart-sass": "^1.25.0",
+    "eslint": "^9.1.1",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.7.1",
+    "pinia": "^2.1.7",
+    "prettier": "^3.2.5",
+    "sass": "^1.75.0",
+    "vite-plugin-compression": "^0.5.1",
+    "vue": "^3.3.4",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.5"
+  }
+}
