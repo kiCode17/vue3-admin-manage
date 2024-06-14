@@ -1,5 +1,5 @@
 {
-  "name": "vue3_back_manage",
+  "name": "vue3-admin-manage",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -22,6 +22,7 @@
     "eslint-config-prettier": "^7.0.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.7.1",
+    "mockjs": "^1.1.0",
     "pinia": "^2.1.7",
     "prettier": "^3.2.5",
     "sass": "^1.75.0",
